@@ -60,11 +60,11 @@ body {
 
   border-radius: 2rem;
 
-  margin-right: .75rem;
+  margin-right: 0.75rem;
 }
 
 #card-user span {
-  color: var(--Black, #111);
+  color: #111111;
 
   /* Body S (Bold) */
   font-family: Figtree;
@@ -80,7 +80,7 @@ body {
   width: fit-content;
   border-radius: 4px;
 
-  color: var(--Black, #111);
+  color: #111111;
 
   /* Body S (Bold) */
   font-family: Figtree;
@@ -91,7 +91,7 @@ body {
 }
 
 .text-simple {
-  color: var(--Black, #111);
+  color: #111111;
 
   /* Body S (Regular) */
   font-family: Figtree;
@@ -102,7 +102,7 @@ body {
 }
 
 .text-title {
-  color: var(--Black, #111);
+  color: #111111;
 
   /* Heading */
   font-family: Figtree;
@@ -110,10 +110,15 @@ body {
   font-style: normal;
   font-weight: 800;
   line-height: 150%; /* 36px */
+
+  transition: all 500ms;
+}
+.text-title:hover {
+  color: #f4d04e;
 }
 
 .text-secondary {
-  color: var(--Grey, #7f7f7f);
+  color: #7f7f7f;
 
   /* Body M */
   font-family: Figtree;
